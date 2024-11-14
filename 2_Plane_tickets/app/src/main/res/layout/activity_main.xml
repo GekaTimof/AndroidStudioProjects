@@ -112,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/passengers_type1" />
                 <EditText
-                    android:inputType="numberDecimal"
+                    android:inputType="number"
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/passengers_type2" />
                 <EditText
-                    android:inputType="numberDecimal"
+                    android:inputType="number"
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/passengers_type3" />
                 <EditText
-                    android:inputType="numberDecimal"
+                    android:inputType="number"
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
