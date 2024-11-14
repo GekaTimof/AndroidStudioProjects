@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">2_Plane_tickets</string>
+
+    <string name="city_module_departure"> Choose departure city </string>
+    <string name="city_module_arrival"> Choose arrival city </string>
+
+    <string name="dates_module_departure"> Choose departure dates </string>
+    <string name="dates_module_arrival"> Choose arrival dates </string>
+
+    <string name="passengers_type_choosing"> Choose amount of each type of passengers </string>
+
+    <string name="passengers_type1"> Adult </string>
+    <string name="passengers_type2"> Young </string>
+    <string name="passengers_type3"> Baby </string>
+
+
+
+    <string name="button_text"> Submit button </string>
+
+    <string-array name="city_list">
+        <item>Moscow</item>
+        <item>Saint Petersburg</item>
+        <item>Novosibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Kazan</item>
+    </string-array>
+    
+</resources>
