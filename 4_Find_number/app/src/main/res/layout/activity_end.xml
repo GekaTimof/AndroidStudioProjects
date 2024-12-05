@@ -5,25 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GameActivity">
+    tools:context=".EndActivity">
 
     <TextView
+        android:id="@+id/end"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/question"
+        android:text="-"
         android:textSize="30sp" />
+
     <Button
-        android:id="@+id/above"
+        android:id="@+id/restart"
         android:textSize="30sp"
-        android:text="Above"
-        android:onClick="onUnswerClick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/below"
-        android:textSize="30sp"
-        android:text="Below"
-        android:onClick="onUnswerClick"
+        android:text="Restart"
+        android:onClick="onRestartClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
