@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">9_ArrayAdapter</string>
+    <string-array name="samplelist">
+        <item>Sample 1</item>
+        <item>Sample 2</item>
+        <item>Sample 3</item>
+    </string-array>
+    <string-array name="name">
+        <item>Evgeniy1</item>
+        <item>Evgeniy2</item>
+        <item>Evgeniy3</item>
+        <item>Evgeniy4</item>
+        <item>Evgeniy5</item>
+        <item>Evgeniy6</item>
+        <item>Evgeniy7</item>
+    </string-array>
+    <string-array name="surname">
+        <item>Timofeev1</item>
+        <item>Timofeev2</item>
+        <item>Timofeev3</item>
+        <item>Timofeev4</item>
+        <item>Timofeev5</item>
+        <item>Timofeev6</item>
+        <item>Timofeev7</item>
+    </string-array>
+</resources>

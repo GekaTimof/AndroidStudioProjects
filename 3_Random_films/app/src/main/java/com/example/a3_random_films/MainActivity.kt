@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         films_arr = resources.getStringArray(R.array.movies)
         films_list = films_arr.toList()
 
-        films_randomizer = Randomizer(films_arr=films_list)
+        films_randomizer = Randomizer(films_arr = films_list)
     }
 
 
