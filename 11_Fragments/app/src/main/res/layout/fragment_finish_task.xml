@@ -5,7 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".FinishTaskFragment"
     android:background="@color/teal_200">
-    
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/bigWeather"
+        android:src="@drawable/no_img"
+        />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

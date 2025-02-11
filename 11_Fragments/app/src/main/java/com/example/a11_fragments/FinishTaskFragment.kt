@@ -5,17 +5,38 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
 
 class FinishTaskFragment: Fragment() {
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val view = inflater.inflate(R.layout.fragment_finish_task, container, false)
-        view.setBackgroundColor(Color.YELLOW)
-        return view
-        //return super.onCreateView(inflater, container, savedInstanceState)
+    private val big_images = listOf(
+        R.drawable.no_img,
+        R.drawable.big_1,
+        R.drawable.big_2
+    )
+
+    private var mainView: View? = null
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        mainView = inflater.inflate(R.layout.fragment_finish_task, container, false)
+        mainView?.setBackgroundColor(Color.YELLOW)
+
+        val weather_id: Int? = arguments?.getInt("weather_id", -1)
+
+        if (mainView != null){
+            setWeather(weather_id)
+        }
+
+        return mainView
+    }
+
+    fun setWeather(weather_id: Int?){
+        val smallWeatherImg: ImageView = mainView?.findViewById(R.id.bigWeather) ?: return;
+
+        if ((weather_id != null) && (weather_id in 1 .. big_images.size - 1)){
+            smallWeatherImg.setImageResource(big_images[weather_id]);
+        } else {
+            smallWeatherImg.setImageResource(big_images.last());
+        }
     }
 }
