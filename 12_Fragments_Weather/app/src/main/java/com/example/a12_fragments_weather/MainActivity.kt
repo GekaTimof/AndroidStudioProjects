@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var toFinishTask: Button
     lateinit var toCurrentTask: Button
 
-    private val API_KEY = "554f4efe25df7da889c5ad056564ba6a"
+    private val API_KEY = ""
     private val cities = arrayOf("Irkutsk", "Moscow", "Novosibirsk")
 
     fun getWeatherID(city: String): Int{
