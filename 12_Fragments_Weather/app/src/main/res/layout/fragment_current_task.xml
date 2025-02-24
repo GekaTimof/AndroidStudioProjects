@@ -8,6 +8,13 @@
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/smallWeather"
+        android:src="@drawable/no_img"
+        />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
