@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/blankFragment_start">
+
+    <fragment
+        android:id="@+id/blankFragment_start"
+        android:name="com.example.a15_navigation.BlankFragment_start"
+        android:label="blank_start"
+        tools:layout="@layout/blank_start" >
+        <action
+            android:id="@+id/action_blankFragment_start_to_blankFragment_1"
+            app:destination="@id/blankFragment_1" />
+        <action
+            android:id="@+id/action_blankFragment_start_to_blankFragment_2"
+            app:destination="@id/blankFragment_2" />
+        <action
+            android:id="@+id/action_blankFragment_start_to_blankFragment_3"
+            app:destination="@id/blankFragment_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment_1"
+        android:name="com.example.a15_navigation.BlankFragment_1"
+        android:label="BlankFragment_1" >
+        <action
+            android:id="@+id/action_blankFragment_1_to_blankFragment_end"
+            app:destination="@id/blankFragment_end" />
+        <action
+            android:id="@+id/action_blankFragment_1_pop"
+            app:popUpTo="@id/blankFragment_1"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment_2"
+        android:name="com.example.a15_navigation.BlankFragment_2"
+        android:label="BlankFragment_2" >
+        <action
+            android:id="@+id/action_blankFragment_2_to_blankFragment_end"
+            app:destination="@id/blankFragment_end" />
+        <action
+            android:id="@+id/action_blankFragment_2_pop"
+            app:popUpTo="@id/blankFragment_2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment_3"
+        android:name="com.example.a15_navigation.BlankFragment_3"
+        android:label="BlankFragment_3" >
+        <action
+            android:id="@+id/action_blankFragment_3_to_blankFragment_end"
+            app:destination="@id/blankFragment_end" />
+        <action
+            android:id="@+id/action_blankFragment_3_pop"
+            app:popUpTo="@id/blankFragment_3"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment_end"
+        android:name="com.example.a15_navigation.BlankFragment_end"
+        android:label="blank_3"
+        tools:layout="@layout/blank_3" >
+        <action
+            android:id="@+id/action_blankFragment_end_pop"
+            app:popUpTo="@id/blankFragment_end"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

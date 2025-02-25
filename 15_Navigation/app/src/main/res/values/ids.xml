@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_blankFragment_to_blankFragment1" type="id" />
+    <item name="action_blankFragment_to_blankFragment2" type="id" />
+</resources>
