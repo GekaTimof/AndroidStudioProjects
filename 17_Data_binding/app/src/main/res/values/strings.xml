@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">17_Data_binding</string>
+    <string name="api_key">ВАШ_API_KEY</string>
+    <string-array name="cities">
+        <item>Irkutsk</item>
+        <item>Moscow</item>
+        <item>Novosibirsk</item>
+    </string-array>
+</resources>
